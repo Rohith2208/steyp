@@ -1,0 +1,1175 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 100px;
+	align-items: center;
+}
+header h1{
+
+}
+header h1 img{
+	display: block;
+}
+header div.center{
+
+}
+header div.center ul{
+	display: flex;
+
+}
+header div.center ul li{
+	margin-right: 30px;
+}
+header div.center ul li:last-child{
+	margin-right: 0px;
+}
+header div.center ul li a{
+	font-size: 16px;
+}
+header div.right{
+
+}
+header div.right ul{
+	display: flex;
+}
+header div.right ul li{
+	margin-right: 30px;
+}
+header div.right ul li:last-child{
+	margin-right: 0px;
+}
+header div.right ul li a{
+	font-size: 16px;
+	font-weight: 500;
+}
+header div.right ul li a.button{
+	padding: 10px 18px;
+	border-radius: 10px;
+	background: lightgoldenrodyellow;
+	color: orange;
+}
+#home section.center{
+	display: flex;
+	justify-content: center;
+	padding: 40px 100px 50px 250px;
+	
+}
+#home section.center div.left{
+	
+}
+#home section.center div.left h1{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: "../fonts/GT-Eesti-Pro-Text-Bold.woff";
+	width: 350px;
+}
+#home section.center div.left p{
+	padding-top: 20px;
+	font-size: 14px;
+}
+#home section.center div.left form{
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+#home section.center div.left form input{
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 40px;
+	width: 200px;
+}
+#home section.center div.left form button{
+	padding: 12px 22px;
+	background: blue;
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+}
+#home section.center div.right{
+
+}
+#home section.center div.right h1{
+	display: block;
+}
+#home section.center div.right img{
+	display: block;
+	width: 700px;
+	padding-right: 200px;
+}
+#home section.bottom{
+	padding: 20px 100px 20px 100px;
+	
+}
+#home section.bottom h4{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-family: "../fonts/GT-Eesti-Pro-Text-Regular.woff";
+	font-weight: 530;
+}
+#home section.bottom ul{
+	display: flex;
+	padding-left: 60px;
+}
+#home section.bottom ul li{
+	margin-right: 50px;
+	justify-content: space-between;
+	text-align: center;
+}
+#home section.bottom ul li:last-child{
+	margin-right: 0px;
+}
+#home section.bottom ul li img{
+	display: block;
+	width: 100%;
+}
+#hubspot{
+	
+}
+#hubspot section.wrapper{
+	padding: 100px 150px 100px 150px;
+	display: flex;
+	justify-content: space-between;
+}
+#hubspot section.wrapper div.left{
+
+}
+#hubspot section.wrapper div.left h1{
+	
+}
+#hubspot section.wrapper div.left h1 img{
+	display: block;
+	width: 400px;
+}
+#hubspot section.wrapper div.right{
+	width: 280px;
+
+}
+#hubspot section.wrapper div.right h2{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#hubspot section.wrapper div.right p{
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+#hubspot section.wrapper div.right a.button{
+	padding: 9px 18px;
+	border-radius: 12px;
+	color: #fff;
+	background: blue;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#hubspot section.wrapper div.right hr.line{
+	padding-top: 30px;
+	border-bottom: 1.3px dotted #444;
+	width: 200px;
+}
+#hubspot section.wrapper div.right blockquote{
+	padding-top: 30px;
+	font-size: 13px;
+	color: gray;
+	padding-bottom: 10px;
+
+}
+#hubspot section.wrapper div.right cite{
+	font-size: 13px;
+}
+#hubspot section.wrapper div.right cite b{
+	font-weight: 500;
+}
+#hubspot section.wrapper div.right h1{
+	padding-top: 10px;
+}
+#hubspot section.wrapper div.right h1 img{
+	display: block;
+}
+
+#usa{
+	height: 100vh;
+	background: #F3F0F0;
+}
+#usa section.wrapper{
+	padding: 100px 150px 100px 150px;
+	display: flex;
+	justify-content: space-between;
+}
+#usa section.wrapper div.left{
+
+}
+#usa section.wrapper div.left h1{
+	
+}
+#usa section.wrapper div.left h1 img{
+	display: block;
+	width: 400px;
+}
+#usa section.wrapper div.right{
+	width: 280px;
+
+}
+#usa section.wrapper div.right h2{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#usa section.wrapper div.right p{
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+#usa section.wrapper div.right a.button{
+	padding: 9px 18px;
+	border-radius: 12px;
+	color: #fff;
+	background: blue;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#usa section.wrapper div.right hr.line{
+	padding-top: 30px;
+	border-bottom: 1.3px dotted #444;
+	width: 200px;
+}
+#usa section.wrapper div.right blockquote{
+	padding-top: 30px;
+	font-size: 13px;
+	color: gray;
+	padding-bottom: 10px;
+
+}
+#usa section.wrapper div.right cite{
+	font-size: 13px;
+}
+#usa section.wrapper div.right cite b{
+	font-weight: 500;
+}
+#usa section.wrapper div.right h1{
+	padding-top: 10px;
+}
+#usa section.wrapper div.right h1 img{
+	display: block;
+}
+
+
+
+#iheart{
+	height: 100vh;
+	background: #fff;
+}
+#iheart section.wrapper{
+	padding: 100px 150px 100px 150px;
+	display: flex;
+	justify-content: space-between;
+}
+#iheart section.wrapper div.left{
+
+}
+#iheart section.wrapper div.left h1{
+	
+}
+#iheart section.wrapper div.left h1 img{
+	display: block;
+	width: 400px;
+}
+#iheart section.wrapper div.right{
+	width: 280px;
+
+}
+#iheart section.wrapper div.right h2{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#iheart section.wrapper div.right p{
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+#iheart section.wrapper div.right a.button{
+	padding: 9px 18px;
+	border-radius: 12px;
+	color: #fff;
+	background: blue;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#iheart section.wrapper div.right hr.line{
+	padding-top: 30px;
+	border-bottom: 1.3px dotted #444;
+	width: 200px;
+}
+#iheart section.wrapper div.right blockquote{
+	padding-top: 30px;
+	font-size: 13px;
+	color: gray;
+	padding-bottom: 10px;
+
+}
+#iheart section.wrapper div.right cite{
+	font-size: 12px;
+}
+#iheart section.wrapper div.right cite b{
+	font-weight: 500;
+}
+#iheart section.wrapper div.right h1{
+	padding-top: 10px;
+}
+#iheart section.wrapper div.right h1 img{
+	display: block;
+}
+
+#page5{
+	height: 80vh;
+}
+#page5 section.wrapper{
+	padding: 150px;
+}
+#page5 section.wrapper h1{
+	font-size: 32px;
+	font-weight: 700;
+	width: 320px;
+	padding-bottom: 70px;
+}
+#page5 section.wrapper div.images{
+
+}
+#page5 section.wrapper div.images ul{
+	display: flex;
+	justify-content: space-between;
+}
+#page5 section.wrapper div.images ul li{
+
+}
+#page5 section.wrapper div.images ul li img{
+	height: 200px;
+	width: 250px;
+	display: block;
+}
+#page5 section.wrapper div.images h1{
+	
+}
+#page5 section.wrapper div.logo h1 img.one{
+	position: relative;
+	display: block;
+	bottom: 107px;
+	left: 10px;
+	z-index: 1;
+	padding: 8px 25px;
+	background: #fff;
+	border-radius: 10px;
+	width: 70px;
+}
+#page5 section.wrapper div.logo h1 img.two{
+	width:80px;
+	position: relative;
+	display: block;
+	left: 305px;
+	bottom: 210px;
+	z-index: 1;
+	padding: 6px 12px;
+	background: #fff;
+	border-radius: 10px;
+}
+#page5 section.wrapper div.logo h1 img.three{
+	width:80px;
+	position: relative;
+	display: block;
+	left: 605px;
+	bottom: 303px;
+	z-index: 1;
+	padding: 6px 12px;
+	background: #fff;
+	border-radius: 10px;
+}
+#page5 section.wrapper div.text{
+	padding-top: 20px;
+}
+#page5 section.wrapper div.text ul{
+	display: flex;
+	justify-content: space-between;
+}
+#page5 section.wrapper div.text ul li{
+	width: 230px;
+	font-size: 14px;
+	font-weight: 700;
+	
+}
+
+#page6{
+	
+}
+#page6 section.wrapper{
+	padding: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+#page6 section.wrapper div.left{
+	
+} 
+#page6 section.wrapper div.left h1{
+
+}
+#page6 section.wrapper div.left h1 img{
+	height: 300px;
+}
+#page6 section.wrapper div.left h2{
+}
+#page6 section.wrapper div.left h2 img{
+	width:70px;
+	position: relative;
+	display: block;
+	bottom: 60px;
+	left: 20px;
+	z-index: 1;
+	padding: 6px 12px;
+	background: #fff;
+	border-radius: 10px;
+
+
+}
+#page6 section.wrapper div.left h3.text{
+	width: 330px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#page6 section.wrapper div.left h3.name{
+	padding-top: 15px;
+	font-size: 12px;
+	font-weight: 600;
+}
+#page6 section.wrapper div.left h3.position{
+	font-size: 12px;
+	color: gray;
+}
+#page6 section.wrapper div.left h3.job{
+	font-size: 12px;
+	font-weight: 600;
+}
+#page6 section.wrapper div.right{
+
+}
+#page6 section.wrapper div.right h1{
+
+}
+#page6 section.wrapper div.right h1 img{
+	height: 300px;
+}
+#page6 section.wrapper div.right h2{
+
+}
+#page6 section.wrapper div.right h2 img{
+	width:80px;
+	position: relative;
+	display: block;
+	bottom: 52px;
+	left: 20px;
+	z-index: 1;
+	padding: 8px 12px;
+	background: #fff;
+	border-radius: 10px;
+}
+#page6 section.wrapper div.right h3.text{
+	width: 360px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#page6 section.wrapper div.right h3.name{
+	padding-top: 15px;
+	font-size: 12px;
+	font-weight: 600;
+}
+#page6 section.wrapper div.right h3.position{
+	font-size: 12px;
+	color: gray;
+}
+#page6 section.wrapper div.right h3.job{
+	font-size: 12px;
+	font-weight: 600;
+}
+#page7{
+	
+	background: #F9F8F8;
+	height: 200vh;
+}
+#page7 section.wrapper{
+	padding: 100px 150px;
+}
+#page7 section.wrapper h1{
+	font-size: 32px;
+	font-weight: 700;
+	width: 380px;
+	text-align: center;
+	margin: 0 auto;
+}
+#page7 section.wrapper div.main{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-top: 100px;
+	
+
+}
+#page7 section.wrapper div.main div{
+	width: 250px;
+	height: 350px;
+}
+#page7 section.wrapper div.main div h1{
+	width: 150px;
+}
+#page7 section.wrapper div.main h1 img{
+	width: 150px;
+}
+#page7 section.wrapper div.main div h2{
+	
+}
+#page7 section.wrapper div.main div h5{
+	font-size: 13px;
+	margin: 0 auto;
+}
+#page7 section.wrapper div.main div.vl{
+	border-right: 1.2px dotted black;
+  	height: 600px;
+  	position: absolute;
+
+}
+#page7 section.wrapper div.bottom section.box{
+	height: 100px;
+	width: 450px;
+	background: #D0DBF7;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 0 auto;
+	align-items: center;
+}
+#page7 section.wrapper div.bottom section.box p{
+	font-size: 15px;
+	width: 250px;
+}
+#page7 section.wrapper div.bottom section.box a.button{
+	font-size: 13px;
+	padding: 12px 22px;
+	background: blue;
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+}
+#page7 section.wrapper div.bottom h1 img{
+	display: block;
+	position: relative;
+	bottom: 120px;
+	z-index: 1;
+	border-radius: 15px;
+	padding: 12px;
+	background: #fff;
+}
+
+#page8{
+	
+}
+#page8 section.wrapper{
+	padding: 60px 150px ;
+}
+#page8 section.wrapper h1.main{
+	padding-bottom: 50px;
+	font-size: 28px;
+	width: 350px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0 auto;
+}
+#page8 section.wrapper section.features{
+	display: flex;
+	justify-content: space-between;
+}
+#page8 section.wrapper section.features div.studio{
+	height: 400px;
+	width: 220px;
+	background: #8CCAF9;
+	padding: 20px;
+}
+#page8 section.wrapper section.features div.studio h1.logo{
+
+}
+#page8 section.wrapper section.features div.studio h1.logo img{
+	display: block;
+	margin: 0 auto;
+	padding: 8px;
+	background: #fff;
+	border-radius: 12px;
+}
+#page8 section.wrapper section.features div.studio h2{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 10px 10px;
+}
+#page8 section.wrapper section.features div.studio h6{
+	font-size: 12px;
+	font-weight: 500;
+	margin: 0 auto;
+	width: 170px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#page8 section.wrapper section.features div.studio a.button{
+	font-size: 13px;
+	padding: 12px 22px;
+	background: blue;
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+#page8 section.wrapper section.features div.studio h1.studio{
+
+}
+#page8 section.wrapper section.features div.studio h1.studio img{
+	display: block;
+	position: relative;
+	bottom: -26px;
+	left: -5px;
+	height: 230px;
+	width: 200px;
+}
+
+
+#page8 section.wrapper section.features div.lightbox{
+	height: 400px;
+	width: 220px;
+	background: #F7F1CB;
+	padding: 20px;
+}
+#page8 section.wrapper section.features div.lightbox h1.logo{
+
+}
+#page8 section.wrapper section.features div.lightbox h1.logo img{
+	display: block;
+	margin: 0 auto;
+	padding: 8px;
+	background: #fff;
+	border-radius: 12px;
+}
+#page8 section.wrapper section.features div.lightbox h2{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 10px 10px;
+}
+#page8 section.wrapper section.features div.lightbox h6{
+	font-size: 12px;
+	font-weight: 500;
+	margin: 0 auto;
+	width: 170px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#page8 section.wrapper section.features div.lightbox a.button{
+	font-size: 13px;
+	padding: 12px 22px;
+	background: #F7C54F;
+	border-radius: 12px;
+	color: #FFF;
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+#page8 section.wrapper section.features div.lightbox h1.lightbox{
+
+}
+#page8 section.wrapper section.features div.lightbox h1.lightbox img{
+	display: block;
+	position: relative;
+	bottom: -26px;
+	left: -5px;
+	height: 220px;
+	width: 200px;
+}
+
+
+#page8 section.wrapper section.features div.wavi{
+	height: 400px;
+	width: 220px;
+	background: #F7CBCB;
+	padding: 20px;
+}
+#page8 section.wrapper section.features div.wavi h1.logo{
+
+}
+#page8 section.wrapper section.features div.wavi h1.logo img{
+	display: block;
+	margin: 0 auto;
+	padding: 8px;
+	background: #fff;
+	border-radius: 12px;
+}
+#page8 section.wrapper section.features div.wavi h2{
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding: 10px 10px;
+}
+#page8 section.wrapper section.features div.wavi h6{
+	font-size: 12px;
+	font-weight: 500;
+	margin: 0 auto;
+	width: 170px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#page8 section.wrapper section.features div.wavi a.button{
+	font-size: 13px;
+	padding: 12px 22px;
+	background: #FB5C5C;
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+#page8 section.wrapper section.features div.wavi h1.wavi{
+
+}
+#page8 section.wrapper section.features div.wavi h1.wavi img{
+	display: block;
+	position: relative;
+	bottom: -26px;
+	left: -5px;
+	height: 220px;
+	width: 200px;
+}
+
+#page9 section.wrapper{
+	padding: 120px;
+}
+#page9 section.wrapper h1{
+	font-size: 32px;
+	font-weight: 650;
+	width: 350px;
+	padding-bottom: 30px;
+}
+#page9 section.wrapper section.main{
+	display: flex;
+	justify-content: space-between;
+}
+#page9 section.wrapper section.main div{
+
+}
+#page9 section.wrapper section.main div h1{
+	
+}
+#page9 section.wrapper section.main div h1 img{
+	height: 180px;
+
+}
+#page9 section.wrapper section.main div h6{
+	font-weight: 500;
+	padding-bottom: 15px;
+	font-size: 12px;
+}
+#page9 section.wrapper section.main div p{
+	width: 280px;
+	font-size: 14px;
+	font-weight: 750;
+	padding-bottom: 30px;
+}
+#page9 section.wrapper section.main div a{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+#page9 section.wrapper a.button{
+	font-size: 13px;
+	padding: 12px 20px;
+	background: blue;
+	border-radius: 12px;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	width: 160px;
+	text-align: center;
+}
+
+#page10{
+	background: black;
+	color: #fff;
+	height: 95vh;
+}
+#page10 section.wrapper{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+#page10 section.wrapper div.left{
+	height: 550px;
+	width: 420px;
+}
+#page10 section.wrapper div.left h1{
+	font-size: 35px;
+	font-weight: 700;
+	width: 330px;
+
+}
+#page10 section.wrapper div.left p{
+	color: gray;
+	width: 400px;
+	font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#page10 section.wrapper div.left hr.line{
+	border-top: 2px dotted #444;
+	width: 200px;
+	padding: 15px;
+
+}
+#page10 section.wrapper div.left h5{
+
+}
+#page10 section.wrapper div.left p.text{
+	color: #fff;
+	width: 380px;
+	font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-style: italic;
+}
+#page10 section.wrapper div.left h6.work{
+	color: gray;
+	padding-bottom: 10px;
+}
+#page10 section.wrapper div.left section.images{
+	width: 160px;
+	padding-bottom: 20px;
+}
+#page10 section.wrapper div.left section.images ul{
+	display: flex;
+	justify-content: space-between;
+}
+#page10 section.wrapper div.left section.images ul li img{
+	border-radius: 50px;
+	height: 35px;
+}
+#page10 section.wrapper div.left section.logos{
+	width: 400px;
+}
+#page10 section.wrapper div.left section.logos ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page10 section.wrapper div.right{
+	background: #fff;
+	height: 450px;
+	width: 450px;
+	padding: 30px;
+}
+#page10 section.wrapper div.right h2{
+	color: black;
+	font-size: 19px;
+	font-weight: 660;
+	padding-bottom: 20px;
+}
+#page10 section.wrapper div.right section.form{
+	display: flex;
+	justify-content: space-between;
+}
+#page10 section.wrapper div.right section.left{
+	width: 200px;
+}
+#page10 section.wrapper div.right section.left form p{
+	border: 1px solid;
+	height: 40px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	width: 180px;
+	font-size: 14px;
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page10 section.wrapper div.right section.form section.left form p input{
+	padding: 10px;
+}
+#page10 section.wrapper div.right section.left form p label{
+	padding: 10px;
+}
+#page10 section.wrapper div.right section.right form p{
+	border: 1px solid;
+	height: 40px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	width: 180px;
+	font-size: 14px;
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page10 section.wrapper div.right section.right form p input{
+	padding: 10px;
+}
+#page10 section.wrapper div.right section.right form p label{
+	padding: 10px;
+}
+#page10 section.wrapper div.right section.bottom form {
+	display: flex;
+	justify-content: space-between;
+	
+}
+#page10 section.wrapper div.right section.bottom form input.checkbox{
+	height: 16px;
+	width: 20px;
+}
+
+#page10 section.wrapper div.right section.bottom form p.policy{
+	width: 350px;
+	font-size: 13px;
+	color: gray;
+	padding-bottom: 20px;
+}
+#page10 section.wrapper div.right section.bottom form p.policy a.policy{
+	text-decoration: underline;
+	color: gray;
+	font-size: 13px;
+}
+#page10 section.wrapper div.right section.bottom a.button{
+	font-size: 13px;
+	padding: 12px 20px;
+	background: blue;
+	border-radius: 10px;
+	color: #fff;
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer{
+	height: 60vh;
+}
+footer section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 100px 60px 100px;
+}
+footer section.wrapper div.one h1{
+	width: 190px;
+	font-weight: 660;
+	font-size: 18px;
+}
+footer section.wrapper div.one ul{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer section.wrapper div.one ul li img{
+	padding: 8px;
+	display: block;
+	border-radius: 8px;
+	background: #F9F6F6;
+}
+footer section.wrapper div.one section.text ul.one{
+	align-items: center;
+	display: flex;
+	justify-content: left;
+}
+footer section.wrapper div.one section.text ul.one li a{
+	font-size: 15px;
+}
+footer section.wrapper div.one section.text ul.one li img{
+	padding: 0px;
+	display: block;
+
+}
+footer section.wrapper div.one section.text ul.two{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+}
+footer section.wrapper div.one section.text ul.two li {
+	width: 100px;
+	font-size: 15px;
+}
+footer section.wrapper div.two{
+	padding-left: 70px;
+}
+footer section.wrapper div.two h6{
+	font-size: 15px;
+	font-weight: 660;
+}
+footer section.wrapper div.two ul{
+	width: 120px;
+}
+footer section.wrapper div.two ul li{
+	margin-bottom: 7px;
+	padding-top: 12px;
+	align-items: center;
+}
+footer section.wrapper div.two ul li a{
+	font-size: 14px;
+	font-weight: 500;
+}
+footer section.wrapper div.three{
+	padding-left: 40px;
+}
+footer section.wrapper div.three ul li{
+	margin-bottom: 12px;
+}
+footer section.wrapper div.three ul li a{
+	font-weight: 500;
+	font-size: 14px;
+}
+footer section.wrapper div.three ul li a.bold{
+	font-weight: 700;
+}
+footer section.wrapper div.four ul li{
+	margin-bottom: 12px;
+}
+footer section.wrapper div.four ul li a{
+	font-weight: 500;
+	font-size: 14px;
+}
+footer section.wrapper div.four ul li a.bold{
+	font-weight: 700;
+}
+footer section.wrapper div.five ul li{
+	margin-bottom: 12px;
+}
+footer section.wrapper div.five ul li a{
+	font-weight: 500;
+	font-size: 14px;
+}
+footer section.wrapper div.five ul li a.bold{
+	font-weight: 700;
+}
+
+
+
+
+
+
